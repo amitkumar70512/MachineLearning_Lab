@@ -1,0 +1,51 @@
+   sky airtemp humidity    wind water forcast enjoysport
+0  sunny    warm   normal  strong  warm    same        yes
+1  sunny    warm     high  strong  warm    same        yes
+2  rainy    cold     high  strong  warm  change         no
+3  sunny    warm     high  strong  cool  change        yes
+
+Instances are:
+ [['sunny' 'warm' 'normal' 'strong' 'warm' 'same']
+ ['sunny' 'warm' 'high' 'strong' 'warm' 'same']
+ ['rainy' 'cold' 'high' 'strong' 'warm' 'change']
+ ['sunny' 'warm' 'high' 'strong' 'cool' 'change']]
+
+Target Values are:  ['yes' 'yes' 'no' 'yes']
+
+Initialization of specific_h and genearal_h
+
+Specific Boundary:  ['sunny' 'warm' 'normal' 'strong' 'warm' 'same']
+
+Generic Boundary:  [['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?']]
+
+Instance 1 is  ['sunny' 'warm' 'normal' 'strong' 'warm' 'same']
+Instance is Positive 
+Specific Bundary after  1 Instance is  ['sunny' 'warm' 'normal' 'strong' 'warm' 'same']
+Generic Boundary after  1 Instance is  [['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?']]
+
+
+
+Instance 2 is  ['sunny' 'warm' 'high' 'strong' 'warm' 'same']
+Instance is Positive 
+Specific Bundary after  2 Instance is  ['sunny' 'warm' '?' 'strong' 'warm' 'same']
+Generic Boundary after  2 Instance is  [['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?']]
+
+
+
+Instance 3 is  ['rainy' 'cold' 'high' 'strong' 'warm' 'change']
+Instance is Negative 
+Specific Bundary after  3 Instance is  ['sunny' 'warm' '?' 'strong' 'warm' 'same']
+Generic Boundary after  3 Instance is  [['sunny', '?', '?', '?', '?', '?'], ['?', 'warm', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', 'same']]
+
+
+
+Instance 4 is  ['sunny' 'warm' 'high' 'strong' 'cool' 'change']
+Instance is Positive 
+Specific Bundary after  4 Instance is  ['sunny' 'warm' '?' 'strong' '?' '?']
+Generic Boundary after  4 Instance is  [['sunny', '?', '?', '?', '?', '?'], ['?', 'warm', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?']]
+
+
+Final Specific_h: 
+['sunny' 'warm' '?' 'strong' '?' '?']
+Final General_h: 
+[['sunny', '?', '?', '?', '?', '?'], ['?', 'warm', '?', '?', '?', '?']]
