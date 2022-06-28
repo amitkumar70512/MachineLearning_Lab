@@ -1,12 +1,9 @@
 # Lab Program  -- KVN
 
-## 1 Implement and demonstrate the FIND-S algorithm for finding the most specific
-hypothesis based on a given set of training data samples.
+## 1 Implement and demonstrate the FIND-S algorithm for finding the most specific hypothesis based on a given set of training data samples.
 https://github.com/amitkumar70512/MachineLearning_Lab/tree/main/Lab1
 
-## 2 For a given set of training data examples stored in a .CSV file, implement and
-demonstrate the Candidate-Elimination algorithm to output a description of the set of
-all hypotheses consistent with the training examples.
+## 2 For a given set of training data examples stored in a .CSV file, implement and demonstrate the Candidate-Elimination algorithm to output a description of the set of all hypotheses consistent with the training examples.
 https://github.com/amitkumar70512/MachineLearning_Lab/tree/main/Lab2
 
 ## 3 Write a program to demonstrate the working of the decision tree based ID3
