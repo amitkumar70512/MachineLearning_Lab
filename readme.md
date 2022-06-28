@@ -24,9 +24,10 @@ https://github.com/amitkumar70512/MachineLearning_Lab/tree/main/Lab5
 https://github.com/amitkumar70512/MachineLearning_Lab/tree/main/Lab6
 
 ## 7 Write a program to construct a Bayesian network considering training data. Use this model to make predictions.
+https://github.com/amitkumar70512/MachineLearning_Lab/tree/main/LAB7
 
 ## 8 Apply EM algorithm to cluster a set of data stored in a .CSV file. Compare the results of k-Means algorithm and EM algorithm.
-https://github.com/amitkumar70512/MachineLearning_Lab/tree/main/LAB7
+
 
 ## 9 Write a program to implement k-Nearest Neighbour algorithm to classify the iris data set. Print both correct and wrong predictions.
 
