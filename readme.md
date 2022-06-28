@@ -23,15 +23,11 @@ https://github.com/amitkumar70512/MachineLearning_Lab/tree/main/Lab5
 ## 6 Apply k-Means algorithm to cluster a set of data stored in a .CSV file.
 https://github.com/amitkumar70512/MachineLearning_Lab/tree/main/Lab6
 
-## 7 Apply EM algorithm to cluster a set of data stored in a .CSV file. Compare the
-results of k-Means algorithm and EM algorithm.
+## 7 Write a program to construct a Bayesian network considering training data. Use this model to make predictions.
+
+## 8 Apply EM algorithm to cluster a set of data stored in a .CSV file. Compare the results of k-Means algorithm and EM algorithm.
 https://github.com/amitkumar70512/MachineLearning_Lab/tree/main/LAB7
 
-## 8 Write a program to construct a Bayesian network considering training data. Use this
-model to make predictions.
+## 9 Write a program to implement k-Nearest Neighbour algorithm to classify the iris data set. Print both correct and wrong predictions.
 
-## 9 Write a program to implement k-Nearest Neighbour algorithm to classify the iris data
-set. Print both correct and wrong predictions.
-
-## 10 Implement the non-parametric Locally Weighted Regression algorithm in order to fit
-data points. Select appropriate data set for your experiment and draw graphs.
+## 10 Implement the non-parametric Locally Weighted Regression algorithm in order to fit data points. Select appropriate data set for your experiment and draw graphs.
