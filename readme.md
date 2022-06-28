@@ -33,3 +33,4 @@ https://github.com/amitkumar70512/MachineLearning_Lab/tree/main/LAB7
 https://github.com/amitkumar70512/MachineLearning_Lab/tree/main/lab9
 
 ## 10 Implement the non-parametric Locally Weighted Regression algorithm in order to fit data points. Select appropriate data set for your experiment and draw graphs.
+https://github.com/amitkumar70512/MachineLearning_Lab/tree/main/Lab10
