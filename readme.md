@@ -30,5 +30,6 @@ https://github.com/amitkumar70512/MachineLearning_Lab/tree/main/LAB7
 
 
 ## 9 Write a program to implement k-Nearest Neighbour algorithm to classify the iris data set. Print both correct and wrong predictions.
+https://github.com/amitkumar70512/MachineLearning_Lab/tree/main/lab9
 
 ## 10 Implement the non-parametric Locally Weighted Regression algorithm in order to fit data points. Select appropriate data set for your experiment and draw graphs.
